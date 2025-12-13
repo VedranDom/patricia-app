@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patricia App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts">
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+  </div>
+
+  <!-- Screen 1: question -->
+  <div id="screen-question" class="screen active">
+    <div class="card">
+      <p>Will you be my girlfriend<br>Patricia?</p>
+
+      <div class="buttons-area">
+        <button id="yesBtn" class="btn yes">Yes! ❤️</button>
+        <button id="noBtn" class="btn no">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Screen 2: yay message -->
+  <div id="screen-answer" class="screen">
+    <div class="card success">
+      <div class="big-icon">
+        <div class="star"></div>
+        <div class="heart-big"></div>
+      </div>
+
+      <h1 class="yay">Yay! 🎉</h1>
+      <h2 class="subtitle">You said yes</h2>
+
+      <p class="message">
+        You've made me the happiest person in the world!<br>
+        You’re my one and only Vedo ❤️
+      </p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
