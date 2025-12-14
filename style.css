@@ -99,6 +99,7 @@ body {
   position: fixed;
   inset: 0;
   pointer-events: none;
+  z-index: 0;
 }
 
 .heart {
@@ -233,3 +234,4 @@ body {
   color: #555;
   line-height: 1.5;
 }
+
