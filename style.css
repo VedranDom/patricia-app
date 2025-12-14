@@ -88,10 +88,10 @@ body {
 .btn.no {
   background: #ffffff;
   color: #333;
-  position: fixed;   /* key change so it can move in viewport */
-  left: 40px;
-  top: 70px;
-}
+  position: fixed;      /* for later movement */
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(50% + 80px);
 
 /* floating hearts background */
 
