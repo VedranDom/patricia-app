@@ -88,12 +88,13 @@ body {
 .btn.no {
   background: #ffffff;
   color: #333;
-  position: fixed;      /* for later movement */
+  position: fixed;     
   left: 50%;
   transform: translateX(-50%);
   top: calc(50% + 80px);
+}
 
-/* floating hearts background */
+
 
 .hearts {
   position: fixed;
@@ -234,4 +235,5 @@ body {
   color: #555;
   line-height: 1.5;
 }
+
 
